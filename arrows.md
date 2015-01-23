@@ -6,7 +6,7 @@ Arrows are a function shorthand using the => syntax. They are syntactically simi
 
 > ES6:
 
-```
+```js
 var odds = evens.map(v => v + 1);
 
 var nums = evens.map((v, i) => v + i);
@@ -14,7 +14,7 @@ var nums = evens.map((v, i) => v + i);
 
 > Javascript
 
-```
+```js
 var odds = evens.map(function (v) {
   return v + 1;
 });
@@ -28,7 +28,7 @@ var nums = evens.map(function (v, i) {
 
 > ES6:
 
-```
+```js
 nums.forEach(v => {
     fives.push(v);
 });
@@ -36,7 +36,7 @@ nums.forEach(v => {
 
 > Javascript
 
-```
+```js
 nums.forEach(function (v) {
   fives.push(v);
 });
@@ -45,7 +45,7 @@ nums.forEach(function (v) {
 ##Lexical `this`
 > ES6:
 
-```
+```js
 var bob = {
   _name: "Bob",
   _friends: [],
@@ -58,7 +58,7 @@ var bob = {
 
 > Javascript
 
-```
+```js
 var bob = {
   _name: "Bob",
   _friends: [],
