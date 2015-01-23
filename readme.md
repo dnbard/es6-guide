@@ -15,3 +15,7 @@ Object literals are extended to support setting the prototype at construction, s
 ##[Template Strings](https://github.com/dnbard/es6-guide/blob/master/ecma6/templateStrings.md)
 
 Template strings provide syntactic sugar for constructing strings. This is similar to string interpolation features in Perl, Python and more. Optionally, a tag can be added to allow the string construction to be customized, avoiding injection attacks or constructing higher level data structures from string contents.
+
+##[Destructuring](https://github.com/dnbard/es6-guide/blob/master/ecma6/destructuring.md)
+
+Destructuring allows binding using pattern matching, with support for matching arrays and objects. Destructuring is fail-soft, similar to standard object lookup foo["bar"], producing undefined values when not found.
