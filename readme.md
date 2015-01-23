@@ -20,3 +20,9 @@ Callee-evaluated default parameter values. Turn an array into consecutive argume
 
 ###[Let, Const](https://github.com/dnbard/es6-guide/blob/master/ecma6/let.md)
 Block-scoped binding constructs. let is the new var. const is single-assignment. Static restrictions prevent use before assignment.
+
+###[Iterators, For..Of](https://github.com/dnbard/es6-guide/blob/master/ecma6/iterators.md)
+Iterator objects enable custom iteration like CLR IEnumerable or Java Iterable. Generalize for..in to custom iterator-based iteration with for..of. Don’t require realizing an array, enabling lazy design patterns like LINQ.
+
+###[Generators](https://github.com/dnbard/es6-guide/blob/master/ecma6/generators.md)
+Generators simplify iterator-authoring using function* and yield. A function declared as function* returns a Generator instance. Generators are subtypes of iterators which include additional next and throw. These enable values to flow back into the generator, so yield is an expression form which returns a value (or throws).
