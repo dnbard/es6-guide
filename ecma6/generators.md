@@ -18,6 +18,26 @@ console.log(gen.next().value); // 1
 console.log(gen.next().value); // 2
 ```
 
+>Javascript
+
+```js
+function idMaker(){
+    var value = 0;
+    
+    return {
+        next: function(){
+            return {
+                value: ++value
+            };
+        }
+    }
+}
+
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+console.log(gen.next().value); // 2
+```
+
 > ES6:
 
 ```js
