@@ -8,6 +8,8 @@ Arrows are a function shorthand using the => syntax. They are syntactically simi
 
 ```
 var odds = evens.map(v => v + 1);
+
+var nums = evens.map((v, i) => v + i);
 ```
 
 > Javascript
@@ -16,17 +18,7 @@ var odds = evens.map(v => v + 1);
 var odds = evens.map(function (v) {
   return v + 1;
 });
-```
 
-> ES6:
-
-```
-var nums = evens.map((v, i) => v + i);
-```
-
-> Javascript
-
-```
 var nums = evens.map(function (v, i) {
   return v + i;
 });
