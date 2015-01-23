@@ -17,3 +17,6 @@ Destructuring allows binding using pattern matching, with support for matching a
 
 ###[Default, Rest, Spread](https://github.com/dnbard/es6-guide/blob/master/ecma6/default.md)
 Callee-evaluated default parameter values. Turn an array into consecutive arguments in a function call. Bind trailing parameters to an array. Rest replaces the need for arguments and addresses common cases more directly.
+
+###[Let, Const](https://github.com/dnbard/es6-guide/blob/master/ecma6/let.md)
+Block-scoped binding constructs. let is the new var. const is single-assignment. Static restrictions prevent use before assignment.
