@@ -26,3 +26,6 @@ Iterator objects enable custom iteration like CLR IEnumerable or Java Iterable. 
 
 ###[Generators](https://github.com/dnbard/es6-guide/blob/master/ecma6/generators.md)
 Generators simplify iterator-authoring using function* and yield. A function declared as function* returns a Generator instance. Generators are subtypes of iterators which include additional next and throw. These enable values to flow back into the generator, so yield is an expression form which returns a value (or throws).
+
+###[Modules](https://github.com/dnbard/es6-guide/blob/master/ecma6/modules.md)
+Language-level support for modules for component definition. Codifies patterns from popular JavaScript module loaders (AMD, CommonJS). Runtime behaviour defined by a host-defined default loader. Implicitly async model – no code executes until requested modules are available and processed.
