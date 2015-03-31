@@ -33,7 +33,7 @@ function f(x, ...y) {
 
 ```js
 function f(x) {
-  var y = arguments.slice(1);
+  var y = Array.prototype.slice.call(arguments, 1);
 
   return x * y.length;
 }
