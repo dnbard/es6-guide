@@ -33,9 +33,7 @@ function f(x, ...y) {
 
 ```js
 function f(x) {
-  for (var _len = arguments.length, y = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    y[_key - 1] = arguments[_key];
-  }
+  var y = Array.prototype.slice.call(arguments, 1);
 
   return x * y.length;
 }
