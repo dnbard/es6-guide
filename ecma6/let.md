@@ -20,3 +20,16 @@ function f() {
   }
 }
 ```
+
+> ES6:
+
+```js
+var pixel = () => {
+    {
+      var x = 1,
+          y = 1;
+      let color = 'red';
+    }
+    console.log(x, y, color); // 1, 1, undefined.
+}
+```
