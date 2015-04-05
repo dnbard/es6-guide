@@ -32,5 +32,5 @@ Language-level support for modules for component definition. Codifies patterns f
 
 #ECMAScript 7 Features
 
-###[Array Comprehensin][https://github.com/dnbard/es6-guide/blob/master/ecma6/arrayComprehension.md]
+###[Array Comprehension](https://github.com/dnbard/es6-guide/blob/master/ecma6/arrayComprehension.md)
 The array comprehension syntax is a JavaScript expression which allows you to quickly assemble a new array based on an existing one.
