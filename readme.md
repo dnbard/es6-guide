@@ -29,3 +29,8 @@ Generators simplify iterator-authoring using function* and yield. A function dec
 
 ###[Modules](https://github.com/dnbard/es6-guide/blob/master/ecma6/modules.md)
 Language-level support for modules for component definition. Codifies patterns from popular JavaScript module loaders (AMD, CommonJS). Runtime behaviour defined by a host-defined default loader. Implicitly async model – no code executes until requested modules are available and processed.
+
+#ECMAScript 7 Features
+
+###[Array Comprehensin][https://github.com/dnbard/es6-guide/blob/master/ecma6/arrayComprehension.md]
+The array comprehension syntax is a JavaScript expression which allows you to quickly assemble a new array based on an existing one.
