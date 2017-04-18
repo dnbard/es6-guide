@@ -1,8 +1,8 @@
-#Destructuring
+# Destructuring
 
 Destructuring allows binding using pattern matching, with support for matching arrays and objects. Destructuring is fail-soft, similar to standard object lookup foo["bar"], producing undefined values when not found.
 
-##List matching
+## List matching
 > ES6:
 
 ```js
@@ -18,7 +18,7 @@ var a = ref[0];
 var b = ref[2];
 ```
 
-##Object matching
+## Object matching
 > ES6:
 
 ```js
@@ -35,7 +35,7 @@ var b = _getSomething.second.something;
 var c = _getSomething.third;
 ```
 
-##Object matching shorthand
+## Object matching shorthand
 > ES6:
 
 ```js
@@ -52,7 +52,7 @@ var second = _getSomething.second;
 var third = _getSomething.third;
 ```
 
-##Parameter destructuring
+## Parameter destructuring
 > ES6:
 
 ```js
@@ -72,7 +72,7 @@ function g(_ref) {
 g({ name: 5 });
 ```
 
-##Fail-soft destructuring
+## Fail-soft destructuring
 > ES6:
 
 ```js
@@ -80,7 +80,7 @@ var [a] = [];
 ```
 a === undefined;
 
-##Fail-soft destructuring with defaults
+## Fail-soft destructuring with defaults
 > ES6:
 
 ```js

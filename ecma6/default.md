@@ -1,8 +1,8 @@
-#Default, Rest, Spread
+# Default, Rest, Spread
 
 Callee-evaluated default parameter values. Turn an array into consecutive arguments in a function call. Bind trailing parameters to an array. Rest replaces the need for arguments and addresses common cases more directly.
 
-##Default
+## Default
 > ES6:
 
 ```js
@@ -20,7 +20,7 @@ function f(x) {
 }
 ```
 
-##Rest
+## Rest
 > ES6:
 
 ```js
@@ -39,7 +39,7 @@ function f(x) {
 }
 ```
 
-##Spread
+## Spread
 Pass each elem of array as argument
 > ES6:
 

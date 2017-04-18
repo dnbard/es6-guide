@@ -1,4 +1,4 @@
-#Array Comprehension
+# Array Comprehension
 
 The array comprehension syntax is a JavaScript expression which allows you to quickly assemble a new array based on an existing one. Comprehensions exist in many programming languages and the upcoming *ECMAScript 7* standard defines array comprehensions for JavaScript.
 
