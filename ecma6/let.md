@@ -1,4 +1,4 @@
-#Let, Const
+# Let, Const
 
 Block-scoped binding constructs. let is the new var. const is single-assignment. Static restrictions prevent use before assignment.
 

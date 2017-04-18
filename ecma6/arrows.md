@@ -1,8 +1,8 @@
-#Arrows
+# Arrows
 
 Arrows are a function shorthand using the => syntax. They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript. They support both expression and statement bodies. Unlike functions, arrows share the same lexical this as their surrounding code.
 
-##Expression bodies
+## Expression bodies
 
 > ES6:
 
@@ -24,7 +24,7 @@ var nums = evens.map(function (v, i) {
 });
 ```
 
-##Statement bodies
+## Statement bodies
 
 > ES6:
 
@@ -42,7 +42,7 @@ nums.forEach(function (v) {
 });
 ```
 
-##Lexical `this`
+## Lexical `this`
 > ES6:
 
 ```js

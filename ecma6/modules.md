@@ -1,8 +1,8 @@
-#Modules
+# Modules
 
 Language-level support for modules for component definition. Codifies patterns from popular JavaScript module loaders (AMD, CommonJS). Runtime behaviour defined by a host-defined default loader. Implicitly async model – no code executes until requested modules are available and processed.
 
-##Export module
+## Export module
 > ES6
 
 ```js
@@ -22,7 +22,7 @@ function sum(x, y) {
 var pi = exports.pi = 3.141593;
 ```
 
-##Import module
+## Import module
 > ES6:
 
 ```js
@@ -35,7 +35,7 @@ import * as math from "lib/math";
 var math = require("lib/math");
 ```
 
-##Export default
+## Export default
 > ES6:
 
 ```js
